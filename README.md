@@ -14,7 +14,9 @@
 ---
 
 因為在學 React，所以試著用 Next.js 做一個購物車的練習，
+
 使用到：Next、TypeScript、Redux
+
 可以看看這個[購物車專案](https://github.com/td231565/next-shopping-cart)。
 
 
