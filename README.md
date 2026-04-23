@@ -14,10 +14,10 @@
 ---
 
 我也正在尋求更好的機會，這是我的
-[履歷](https://richard-ntou.notion.site/c6c7cdf7159f4116a7d89b3cc799e461)
+[履歷](https://canva.link/tog714y8wjjvmck)
 ，有興趣歡迎與我聯繫！
 
-I'm also on the lookout for new opportunities! Here's my [resume](https://canva.link/tog714y8wjjvmck). Feel free to reach out if you're interested!
+I'm also on the lookout for new opportunities! Here's my [resume](https://canva.link/3wlk5lrvpsnjdjr). Feel free to reach out if you're interested!
 
 Email: td231565@gmail.com
 
