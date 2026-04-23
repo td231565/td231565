@@ -3,6 +3,7 @@
 - [Andrej Karpathy Guidelines - development constrains for ai](https://github.com/td231565/andrej-karpathy-skills)
 - [How - explain how project working](https://github.com/td231565/how)
 - [Android Skills - official public](https://github.com/td231565/android-skills)
+- [Huashu Design - design skill extract from Claude Design](https://github.com/td231565/huashu-design)
 
 **解決特定情境的 utility function**
 - [Utilities](https://github.com/td231565/utilities)
