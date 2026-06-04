@@ -35,20 +35,12 @@
 ### Official Public
 
 - [Anthropics Skills](https://github.com/td231565/anthropics-skills)
-- [Google Skills](https://github.com/td231565/google-skills)
+- [Google Skills](https://github.com/google/skills)
 - [Android Skills](https://github.com/td231565/android-skills)
 
 ### Stock
 
 - [InvestSkill - Professional investment analysis frameworks for US stocks](https://github.com/yennanliu/InvestSkill)
-
-## 解決特定情境的 utility function
-
-- [Utilities](https://github.com/td231565/utilities)
-
-## 特殊情境紀錄
-
-[閱讀](https://github.com/td231565/scenario/blob/main/README.md)
 
 ## Resouce
 
@@ -58,6 +50,13 @@
 - [Docker 從入門到實踐](https://docker-practice.gh.miniasp.com/)
 - [Webwright](https://microsoft.github.io/Webwright/)
 - [SuperDesign](https://app.superdesign.dev/)
+
+## 紀錄
+
+- [解決過去遇到問題的小程式](./utilities/README.md)
+- [實務上遇到的情境問題](./scenario/README.md)
+- [搜集些有用的提示詞](./prompts/README.md)
+- [概念或技術原理的筆記](./notes/README.md)
 
 ---
 
