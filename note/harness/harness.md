@@ -31,3 +31,7 @@ Agent = Model + Harness
 1. Level 1：建立 AGENTS.md + Linting + Auto Testing。
 2. Level 2：導入 Sub-Agent 分工與共用工具。
 3. Level 3：建立自訂 Middleware 與技術債回收機制。
+
+## Resource
+
+- https://harness-engineering-report-28208.netlify.app
