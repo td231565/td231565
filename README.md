@@ -34,9 +34,9 @@
 
 ### Official Public
 
-- [Anthropics Skills](https://github.com/td231565/anthropics-skills)
+- [Anthropics Skills](https://github.com/anthropics/skills)
 - [Google Skills](https://github.com/google/skills)
-- [Android Skills](https://github.com/td231565/android-skills)
+- [Android Skills](https://github.com/android/skills)
 
 ### Stock
 
