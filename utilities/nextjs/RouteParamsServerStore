@@ -1,0 +1,49 @@
+class RouteParamsServerStore<T = Record<string, string>> {
+  private params: T | null = null;
+  private paramsPromise: Promise<T> | null = null;
+  private resolveParams: ((params: T) => void) | null = null;
+
+  async setParams(paramsPromise: Promise<T>): Promise<void> {
+    this.paramsPromise = paramsPromise;
+    this.params = await paramsPromise;
+
+    if (this.resolveParams) {
+      this.resolveParams(this.params);
+      this.resolveParams = null;
+      this.paramsPromise = null;
+    }
+  }
+
+  // 等待並取得路由參數
+  async getParamsAsync(): Promise<T> {
+    if (this.paramsPromise) {
+      return this.paramsPromise;
+    }
+
+    // 尚未 set 前，創建新的 Promise 等待設定
+    this.paramsPromise = new Promise<T>((resolve) => {
+      this.resolveParams = resolve;
+    });
+
+    return this.paramsPromise;
+  }
+
+  // 同步取得參數（僅在確定已設定時使用）
+  getParamsSync(): T | null {
+    return this.params;
+  }
+
+  // 檢查參數是否已設定
+  isReady(): boolean {
+    return this.params !== null;
+  }
+
+  // 重置 store 狀態
+  reset(): void {
+    this.params = null;
+    this.paramsPromise = null;
+    this.resolveParams = null;
+  }
+}
+
+export const routeParamsServerStore = new RouteParamsServerStore();

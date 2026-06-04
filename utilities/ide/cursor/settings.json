@@ -1,0 +1,121 @@
+{
+  /**
+   * IDE Settings
+  **/
+  "update.mode": "manual",
+  "workbench.activityBar.orientation": "vertical",
+  "workbench.colorTheme": "Default Dark Modern",
+  "explorer.confirmDragAndDrop": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+
+  /**
+   * Editor Settings
+  **/
+  "editor.fontFamily": "fira code",
+  "editor.fontLigatures": true,
+  "eslint.format.enable": true,
+  "editor.fontSize": 13,
+  "editor.tabSize": 2,
+  "editor.minimap.renderCharacters": false,
+  // "editor.tokenColorCustomizations": {
+  // },
+  // "workbench.colorCustomizations": {
+  // },
+  "files.trimTrailingWhitespace": true,
+
+  /**
+   * ESlint, Prettier Settings
+  **/
+  "[html]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "never"
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[cshtml]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "never"
+    }
+  },
+  "[javascript]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit"
+    },
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "eslint.rules.customizations": [
+    {
+      "rule": "no-trailing-spaces",
+      "severity": "error"
+    },
+    {
+      "rule": "semi",
+      "severity": "error"
+    }
+  ],
+  "prettier.printWidth": 110,
+  "prettier.singleQuote": true,
+
+  /**
+   * C# Settings
+  **/
+  "dotnet.preferCSharpExtension": true,
+  // "[csharp]": {
+  //   "editor.defaultFormatter": "ms-dotnettools.csharp"
+  // },
+  // "[aspnetcorerazor]": {
+  //   "editor.defaultFormatter": "ms-dotnettools.csharp"
+  // },
+  /**
+   * 下列規則會讓 IDE 將 cshtml 視為 html
+   * 開啟: 可以用 eslint, prettier format
+   * 關閉: 讓 IDE 能分辨 C# Razor 語法
+   */
+  // "files.associations": {
+  //   "*.cshtml": "html"
+  // },
+
+  /**
+   * Todo Highlight Settings
+  **/
+  "todohighlight.include": [
+    "**/*.js",
+    "**/*.jsx",
+    "**/*.ts",
+    "**/*.tsx",
+    "**/*.html",
+    "**/*.cshtml",
+    "**/*.php",
+    "**/*.css",
+    "**/*.scss",
+    "**/*.cs"
+  ],
+
+  /**
+   * Cursor Settings
+  **/
+  "cursor.general.globalCursorIgnoreList": [
+    "**/.env",
+    "**/.env.*",
+    "**/credentials.json",
+    "**/credentials.*.json",
+    "**/secret.json",
+    "**/secrets.json",
+    "**/*.key",
+    "**/*.pem",
+    "**/*.pfx",
+    "**/*.p12",
+    "**/*.crt",
+    "**/*.cer",
+    "**/id_rsa",
+    "**/id_dsa",
+    "**/.ssh/id_*",
+    "**/obj/Release",
+    "**/obj/Debug",
+    "bin",
+    "**/bin"
+  ]
+}
