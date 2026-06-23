@@ -19,6 +19,7 @@
 - [Andrej Karpathy Guidelines - development constrains for ai](https://github.com/multica-ai/andrej-karpathy-skills)
 - [How - explain how project working](https://github.com/poteto/how)
 - [shipshape skills - 建立給 CC 使用的開發工作流](https://github.com/mukiwu/muki-ai-plugins/blob/master/plugins/shipshape-skills/README.zh-TW.md)
+- [Ponytail - 要求 AI 做最小化開發](https://github.com/DietrichGebert/ponytail)
 
 ### Design
 
@@ -31,6 +32,7 @@
 
 - [Cocoindex Search](https://github.com/cocoindex-io/cocoindex)
 - [Ast Grep](https://github.com/ast-grep/agent-skill)
+- [Armi - 搜尋多格式文件內容，如 PDF/PPT/DOC 等](https://github.com/star-inc/armi)
 
 ### Official Public
 
