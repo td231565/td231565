@@ -20,6 +20,7 @@
 - [How - explain how project working](https://github.com/poteto/how)
 - [shipshape skills - 建立給 CC 使用的開發工作流](https://github.com/mukiwu/muki-ai-plugins/blob/master/plugins/shipshape-skills/README.zh-TW.md)
 - [Ponytail - 要求 AI 做最小化開發](https://github.com/DietrichGebert/ponytail)
+- [Matt Pocock - 著名的 Grill Me](https://github.com/mattpocock/skills)
 
 ### Design
 
