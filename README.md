@@ -1,6 +1,6 @@
 # Welcome
 
-我是前端工程師 Richard，專精 Vue, React 框架。在 AI 的幫助下，也能迅速了解後端及 DB 應用。
+我是前端工程師 Richard，專精 Vue、React，也慢慢增加 DB、後端的能力。
 
 ## Side Projects
 
@@ -11,6 +11,14 @@
 ### [High-Frequency Trading Charts](https://github.com/td231565/high-freq-chart)
 
 高頻交易圖表 MVP：前端 Next.js (App Router)、Mock WS 本地通訊。目標是了解如何在 React 環境下，以極低 CPU 和記憶體開銷處理高頻 WebSocket 數據，維持流暢渲染。
+
+### [104 Job Extractor](https://github.com/td231565/104)
+
+一個 Chrome Extension 可以分別在 104 的職缺列表和職缺內頁萃取資訊的小工具。
+
+### [波比跳日曆](https://github.com/td231565/burpee-jump)
+
+波比跳 App：React Native + SQLite 打造可以督促我自己維持每天波比跳的運動習慣。
 
 ## Agent SKILLs
 
